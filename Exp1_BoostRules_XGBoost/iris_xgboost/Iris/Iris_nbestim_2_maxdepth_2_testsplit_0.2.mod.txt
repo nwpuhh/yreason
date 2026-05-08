@@ -1,0 +1,41 @@
+booster[0]:
+0:[f2<3] yes=1,no=2,missing=2
+	1:leaf=0.426035523
+	2:leaf=-0.21861203
+booster[1]:
+0:[f2<3] yes=1,no=2,missing=2
+	1:leaf=-0.213017777
+	2:[f3<1.79999995] yes=3,no=4,missing=4
+		3:leaf=0.382872939
+		4:leaf=-0.192413822
+booster[2]:
+0:[f2<4.9000001] yes=1,no=2,missing=2
+	1:[f2<4.80000019] yes=3,no=4,missing=4
+		3:leaf=-0.218530372
+		4:leaf=-7.66345476e-09
+	2:[f3<1.79999995] yes=5,no=6,missing=6
+		5:leaf=0.0818181783
+		6:leaf=0.420437962
+booster[3]:
+0:[f2<3] yes=1,no=2,missing=2
+	1:leaf=0.29323113
+	2:leaf=-0.195623472
+booster[4]:
+0:[f2<3] yes=1,no=2,missing=2
+	1:leaf=-0.189515531
+	2:[f2<4.9000001] yes=3,no=4,missing=4
+		3:leaf=0.291588902
+		4:leaf=-0.147044808
+booster[5]:
+0:[f2<4.9000001] yes=1,no=2,missing=2
+	1:[f2<4.80000019] yes=3,no=4,missing=4
+		3:leaf=-0.195570022
+		4:leaf=-0.00844733696
+	2:[f3<1.79999995] yes=5,no=6,missing=6
+		5:leaf=0.0876501575
+		6:leaf=0.292158991
+
+f0 - sepal.length
+f1 - sepal.width 
+f2 - petal.length
+f3 - petal.width
